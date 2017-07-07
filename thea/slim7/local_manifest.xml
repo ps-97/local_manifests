@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Repositories to fetch-->
+  <project name="LineageOS/android_device_motorola_thea" path="device/motorola/thea" revision="cm-14.1" remote="github" />
+  <project name="SlimRoms/device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="ng7.1" remote="github" />
+  <project name="SlimRoms/kernel_motorola_msm8226" path="kernel/motorola/msm8226" revision="ng7.1" remote="github" />
+  <project name="LineageOS/proprietary_vendor_motorola" path="vendor/motorola" revision="cm-14.1" remote="github" />
+  
+<!--Repositories to remove-->
+  <remove-project name="SlimRoms/packages_apps_Mms" />
+  <remove-project name="SlimRoms/packages_apps_FMRadio" />
+  <remove-project name="SlimRoms/" />
+
+ <!--Repositories to replace-->
+
+</manifest>
